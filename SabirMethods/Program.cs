@@ -44,6 +44,18 @@
 			//Console.WriteLine(word.Remove(4));
 			//Console.WriteLine(word.Substring(0,4));
 			#endregion
+
+			#region task6
+			//string str = Console.ReadLine();
+			//GetDomain(str);
+			#endregion
+
+
+
+		}
+		public static void GetDomain(string mail)
+		{
+			Console.WriteLine(mail.Substring(mail.IndexOf('@')+1));
 		}
 		public static void Print(string[] arr)
 		{
