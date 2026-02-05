@@ -1,0 +1,15 @@
+C:\Users\sabirsas\Desktop\New folder\SabirMethods\SabirMethods\bin\Debug\net8.0\SabirMethods.exe
+C:\Users\sabirsas\Desktop\New folder\SabirMethods\SabirMethods\bin\Debug\net8.0\SabirMethods.deps.json
+C:\Users\sabirsas\Desktop\New folder\SabirMethods\SabirMethods\bin\Debug\net8.0\SabirMethods.runtimeconfig.json
+C:\Users\sabirsas\Desktop\New folder\SabirMethods\SabirMethods\bin\Debug\net8.0\SabirMethods.dll
+C:\Users\sabirsas\Desktop\New folder\SabirMethods\SabirMethods\bin\Debug\net8.0\SabirMethods.pdb
+C:\Users\sabirsas\Desktop\New folder\SabirMethods\SabirMethods\obj\Debug\net8.0\SabirMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabirsas\Desktop\New folder\SabirMethods\SabirMethods\obj\Debug\net8.0\SabirMethods.AssemblyInfoInputs.cache
+C:\Users\sabirsas\Desktop\New folder\SabirMethods\SabirMethods\obj\Debug\net8.0\SabirMethods.AssemblyInfo.cs
+C:\Users\sabirsas\Desktop\New folder\SabirMethods\SabirMethods\obj\Debug\net8.0\SabirMethods.csproj.CoreCompileInputs.cache
+C:\Users\sabirsas\Desktop\New folder\SabirMethods\SabirMethods\obj\Debug\net8.0\SabirMethods.sourcelink.json
+C:\Users\sabirsas\Desktop\New folder\SabirMethods\SabirMethods\obj\Debug\net8.0\SabirMethods.dll
+C:\Users\sabirsas\Desktop\New folder\SabirMethods\SabirMethods\obj\Debug\net8.0\refint\SabirMethods.dll
+C:\Users\sabirsas\Desktop\New folder\SabirMethods\SabirMethods\obj\Debug\net8.0\SabirMethods.pdb
+C:\Users\sabirsas\Desktop\New folder\SabirMethods\SabirMethods\obj\Debug\net8.0\SabirMethods.genruntimeconfig.cache
+C:\Users\sabirsas\Desktop\New folder\SabirMethods\SabirMethods\obj\Debug\net8.0\ref\SabirMethods.dll
