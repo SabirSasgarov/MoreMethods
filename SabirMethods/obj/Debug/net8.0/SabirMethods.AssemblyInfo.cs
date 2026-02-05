@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SabirMethods")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef005c3d9467bad2f95771f220b0d64d1194e7b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb320f28f1f7bd9e0b597c16be54773c04b98af2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SabirMethods")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SabirMethods")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
