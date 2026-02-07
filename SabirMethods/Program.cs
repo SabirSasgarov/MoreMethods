@@ -32,7 +32,7 @@ namespace SabirMethods
 
 			#region task3
 			//string str = Console.ReadLine();
-			//TekrarlariSil(str);
+			//Console.WriteLine(TekrarlariSil(str));
 			#endregion
 
 			#region task4
@@ -54,7 +54,8 @@ namespace SabirMethods
 
 			#region task7
 			//string str = Console.ReadLine();
-			//GetDomain(str);
+			//char[] numbers = {'1','2','3','4','5','6','7','8','9','0'};
+			//CheckString(str,numbers);
 			#endregion
 
 			#region task8
@@ -65,7 +66,20 @@ namespace SabirMethods
 
 		}
 
-
+		private static void CheckString(string str, char[] numbers)
+		{
+			bool contain = false;
+			int count = default;
+			foreach (char s in str)
+			{
+				if(contain = numbers.Contains(s))
+					break;	
+			}
+			if(contain)
+				Console.WriteLine("Reqem var");
+			else
+				Console.WriteLine("Herflerden ibaretdir");
+		}
 		public static void ToPascal(string[] words)
 		{
 			int count = default;
@@ -108,11 +122,27 @@ namespace SabirMethods
 				Console.Write(word);
 			}
 		}
+		public static string TekrarlariSil(string str)
+		{
+			string newStr = string.Empty;
+			for(int i = 0; i < str.Length; i++)
+			{
+				int count = 0;
+				for(int j = 0; j < str.Length; j++)
+				{
+					if (str[i] == str[j])
+						count++;
+				}
+				if (count < 2 && str[i]!=' ')
+					newStr += str[i];
+			}
+			return newStr;
+		}
 
 
 
 
 
 
-    }
+	}
 }
