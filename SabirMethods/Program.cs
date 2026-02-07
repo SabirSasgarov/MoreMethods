@@ -1,4 +1,6 @@
-﻿namespace SabirMethods
+﻿using System.Diagnostics.Tracing;
+
+namespace SabirMethods
 {
     internal class Program
     {
@@ -50,8 +52,36 @@
 			//GetDomain(str);
 			#endregion
 
+			#region task7
+			//string str = Console.ReadLine();
+			//GetDomain(str);
+			#endregion
+
+			#region task8
+			//string str = Console.ReadLine();
+			//string[] words = str.Split();
+			//ToPascal(words);
+			#endregion
+
+		}
 
 
+		public static void ToPascal(string[] words)
+		{
+			int count = default;
+			foreach (string word in words)
+			{
+				if (count == 0)
+				{
+					count++;
+					word.ToUpper();
+					Console.Write(word.ToUpper()[0]);
+					Console.Write(word.Substring(1).ToLower());
+				}
+				else
+					Console.Write(word.ToLower());
+				Console.Write(" ");
+			}
 		}
 		public static void GetDomain(string mail)
 		{
@@ -78,11 +108,7 @@
 				Console.Write(word);
 			}
 		}
-		public static string TekrarlariSil(string word)
-		{
 
-			return word;
-		}
 
 
 
