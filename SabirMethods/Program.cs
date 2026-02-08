@@ -64,8 +64,22 @@ namespace SabirMethods
 			//ToPascal(words);
 			#endregion
 
+			#region task9
+			//string[] fullNames={"Sabir Asgarov","Aqsin Khalilov","Farid Cavadov"};
+			//foreach(string name in FullToOnlyNames(fullNames))
+			//	Console.WriteLine(name);
+			#endregion
 		}
 
+		//9
+		private static string[] FullToOnlyNames(string[] fullNames)
+		{
+			string[] name = new string[fullNames.Length];
+			for (int i=0;i<fullNames.Length;i++)
+				name[i] = fullNames[i].Split()[0];
+			return name;
+		}
+		//7
 		private static void CheckString(string str, char[] numbers)
 		{
 			bool contain = false;
@@ -80,6 +94,7 @@ namespace SabirMethods
 			else
 				Console.WriteLine("Herflerden ibaretdir");
 		}
+		//8
 		public static void ToPascal(string[] words)
 		{
 			int count = default;
@@ -97,15 +112,18 @@ namespace SabirMethods
 				Console.Write(" ");
 			}
 		}
+		//6
 		public static void GetDomain(string mail)
 		{
 			Console.WriteLine(mail.Substring(mail.IndexOf('@')+1));
 		}
+		//4
 		public static void Print(string[] arr)
 		{
 			foreach (string a in arr)
 				Console.WriteLine(a);
 		}
+		//1
 		public static int[] MusbeteCevir(ref int[] nums)
         {
 			int[] newArray = new int[nums.Length];
@@ -115,6 +133,7 @@ namespace SabirMethods
 			}
             return nums;
         }
+		//2
 		public static void Repeat(string word, int count)
 		{
 			for(int i = 0; i<count; i++)
@@ -122,6 +141,7 @@ namespace SabirMethods
 				Console.Write(word);
 			}
 		}
+		//3
 		public static string TekrarlariSil(string str)
 		{
 			string newStr = string.Empty;
@@ -138,11 +158,6 @@ namespace SabirMethods
 			}
 			return newStr;
 		}
-
-
-
-
-
 
 	}
 }
