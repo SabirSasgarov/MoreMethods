@@ -18,10 +18,10 @@ namespace SabirMethods
 			#endregion
 
 			#region task1
-			//int[] numbers= [ 1, 2, -3, 4, -5, 6, -7 ];
+			//int[] numbers= [ 1, 2, -3, 4, -5, 6, -7];
 			//MusbeteCevir(ref numbers);
 			//foreach (int number in numbers)
-			//	Console.Write(number+" ");
+			//	Console.Write(number+s" ");
 			#endregion
 
 			#region task2
@@ -54,8 +54,8 @@ namespace SabirMethods
 
 			#region task7
 			//string str = Console.ReadLine();
-			//char[] numbers = {'1','2','3','4','5','6','7','8','9','0'};
-			//CheckString(str,numbers);
+			//char[] numbers = { '1', '2', '3', '4', '5', '6', '7', '8', '9', '0' };
+			//CheckString(str, numbers);
 			#endregion
 
 			#region task8
@@ -70,6 +70,7 @@ namespace SabirMethods
 			//	Console.WriteLine(name);
 			#endregion
 		}
+
 
 		//9
 		private static string[] FullToOnlyNames(string[] fullNames)
@@ -126,7 +127,6 @@ namespace SabirMethods
 		//1
 		public static int[] MusbeteCevir(ref int[] nums)
         {
-			int[] newArray = new int[nums.Length];
 			for (int i = 0; i<nums.Length; i++)
 			{
 				if (nums[i] < 0) nums[i] *= -1;
@@ -134,7 +134,7 @@ namespace SabirMethods
             return nums;
         }
 		//2
-		public static void Repeat(string word, int count)
+		public static void Repeat(string word, int count=1)
 		{
 			for(int i = 0; i<count; i++)
 			{
